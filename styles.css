@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(24, 121, 124);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .logo {
+    
+}
+
+.head .menu-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.head .menu {
+    margin-left: 20px; 
+}
+
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.Container-1 {
+    margin-top: 30px;
+    margin-left: 1px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    border: 2px solid;
+    height: 450px;
+    width: 300px;
+}
+.Body-1{
+    margin: 0px;
+    background-color: rgb(60, 127, 153);
+    height: 150px;
+    width: 300px; 
+}
+.Text{
+    margin: 30px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 80px;
+    width: 220px;
+}
+.Container-2{
+    
+}
+
+.Body-4-container {
+    background-color: rgb(104, 113, 189);
+    margin: 30px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 300px;
+    width: 1020px;
+}
+.Container-3{
+    margin: 30px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 1020px  
+}
+.Body-3{
+    margin: 0px;
+    background-color: rgb(104,113,189);
+    border: 2px solid;
+    height: 120px;
+    width: 318px; 
+}
+.Body-5-container{
+    margin-right: 30px;
+}
+.Body-6-container{
+    margin-right: 30px;
+}
+.Body-7-container{
+    margin:0px
+}
+.Rubrik{
+    margin: 30px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 60px;
+    width: 250px;
+}
+
+.Footer {
+    background-color: rgb(24,121,124);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
